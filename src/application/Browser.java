@@ -46,7 +46,7 @@ public class Browser extends Application {
         
         BorderPane borderpane = new BorderPane(root);
         Scene scene = new Scene(borderpane);
-        scene.getStylesheets().add(getClass().getResource("/style.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("Style.css").toExternalForm());
         
         primaryStage.setScene(scene);
         primaryStage.setTitle("Simple Browser");
